@@ -1,0 +1,39 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+.container{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.box{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    width: 400px;
+    border: 3px solid yellow;
+}
+#textinput{
+    font-size: 10px;
+    color: black;
+    height: 200px;
+    width: 300px;
+    border: 3px solid yellow;
+}
+h2{
+    color: white;
+}
+button{
+    padding: 10px 60px;
+    border: 3px solid yellow;
+}
+button:hover{
+    background-color: pink;
+}
